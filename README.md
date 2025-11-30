@@ -1,4 +1,4 @@
-# AstonEventsWebsite
+# Aston Events Website
 
 Coursework for my Internet applications & database design (IADD) module.
 
