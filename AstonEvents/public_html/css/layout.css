@@ -1,0 +1,260 @@
+/* Logo, header and footer */
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.imageRow {
+	display: flex;
+}
+
+#logo {
+	width: 180px;
+	height: auto;
+	margin-top: 30px;
+	padding: 20px;
+}
+
+#title {
+	max-width: 50%;
+	height: auto;
+	float: left;
+	display: block;
+	margin: 0 auto;
+}
+
+#footer {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+
+header {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 15px;
+}
+
+
+/* Home page */
+
+.reminder {
+	text-align: center;
+	line-height: 80%;
+	padding: 5px;
+	background-color: pink;
+}
+
+.site-overview {
+	margin: 100px;
+	margin-top:30px;
+}
+
+#slide {
+	width: 600px;
+	height: 400px;
+	float: right;
+}
+
+body {
+	margin: 0;
+	padding-bottom: 50px;
+}
+
+
+/* Navigation bar - Adapated from W3Schools - Referenced in report */
+
+.navigation-bar {
+	background-color: #333;
+	overflow: hidden;
+	width: 100%;
+	white-space:nowrap; 
+	display: block;
+	text-align: center;
+}
+
+.navigation-bar a {
+	display: inline-block;
+	position: relative;
+	color: #f2f2f2;
+	width: 16.66%;
+	text-decoration: none;
+	font-size: 17px;
+	white-space: nowrap; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navigation-bar a:hover {
+	background-color: #c300ff;
+	color: black;
+}
+
+.navigation-bar a.active {
+	background-color: #c300ff;
+	color: white;
+}
+
+/* Login/Signup Page */
+
+h1 {
+	font-size: 20px;
+	margin: 10px;
+	color: white;
+	text-align: center;
+}
+
+#text{
+	height: 25px;
+	border-radius: 5px;
+	padding: 4px;
+	border: solid thin #aaa;
+	width: 100%;
+}
+
+#button{
+	padding: 10px;
+	width: 100px;
+	color: white;
+	background-color: purple;
+	border: none;
+	display: block;
+	margin: 0 auto;
+}
+
+#login-box{
+	background-color: lightblue;
+	margin: auto;
+	width: 300px;
+	height: 230px;
+	padding: 25px;
+	margin-top: 30px;
+}
+
+#signup-box{
+	background-color: lightblue;
+	margin: auto;
+	width: 300px;
+	height: 320px;
+	padding: 25px;
+	margin-top: 30px;
+}
+
+.signupMsg {
+	color: purple;
+	font-weight: bold;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+body.login {
+	margin:0;
+	background-image: url("images/banner.jpg");
+	width: 100vw;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body.signup {
+	margin:0;
+	background-image: url("images/banner.jpg");
+	width: 100vw;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/* Event pages */
+
+h3 {
+	font-size: 20px;
+	color: purple;
+}
+
+.sort {
+	margin: 20px;
+}
+
+.events {
+	margin: 20px;
+}
+
+#eventImg {
+	width: 400px;
+	height: 300px;
+	float: left;
+	clear: left;
+	margin: 0 25px 25px 0;
+}
+
+#registerButton{
+	padding: 10px;
+	margin-top: 20px;
+	width: 100px;
+	color: white;
+	background-color: purple;
+	border: none;
+	display: block;
+}
+
+.registerMsg {
+	font-size: 20px;
+	color: purple;
+	margin-bottom: 10px;
+}
+
+.likedMsg {
+	font-size: 20px;
+	color: blue;
+	margin-bottom: 10px;
+}
+
+#likeButton{
+	padding: 10px;
+	width: 100px;
+	color: white;
+	background-color: blue;
+	border: none;
+	display: block;
+}
+
+
+/* Hide list elements for readmore.js script */
+ul[id^= 'datalist'] li:nth-child(n+3) { 
+    display:none;
+}
+
+span {
+    cursor: pointer;
+    color: pink;
+	padding: 5px;
+}
+
+.sort {
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	padding: 2px;
+	line-height: 50px;
+	margin-top: 30px;
+	background-color: black;
+	color: white;
+}
+
+.event1, .event2 {
+	height: 350px;
+}
+
+#ascending,#descending {
+	border: none;
+	color: white;
+	background-color: grey;
+	padding: 6px;
+}
+
